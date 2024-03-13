@@ -1,0 +1,22 @@
+.full-container {
+  margin: 10px;
+}
+
+.individual-container {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.like img {
+  width: 20px;
+  height: 20px;
+}
