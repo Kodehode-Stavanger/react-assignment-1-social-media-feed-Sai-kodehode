@@ -1,0 +1,56 @@
+body {
+  background-image: url("facebook7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fullContainer {
+  width: 40%;
+  min-width: 300px;
+
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.individualContainer {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.individualContainer h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #1877f2;
+}
+
+.timestampInfo {
+  font-size: 10px;
+  color: #606770;
+  margin-bottom: 10px;
+}
+
+.contentInfo {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  color: #606770;
+}
+
+.like img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.like p {
+  font-size: 14px;
+  margin: 0;
+}
