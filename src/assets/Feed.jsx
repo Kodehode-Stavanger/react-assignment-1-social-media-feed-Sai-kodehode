@@ -1,17 +1,18 @@
-function Feed(props) {
-  return (
-    <div className="full-container">
-      <div className="individual-container">
-        <h1>{props.usernameinfo} </h1>
-        <p>{props.contentinfo}</p>
-        <div className="like">
-          <img src={props.liconinfo} alt="licon" />
-          <p>{props.likesinfo} </p>
-        </div>
-        <p>{props.timestampinfo} </p>
-      </div>
-    </div>
-  );
-}
+import Post from "./Post";
+import posts from "./posts";
+import liconImage from "./licon.jpg";
 
-export default Feed;
+export default function Feed() {
+  const postDetails = posts.map((post) => {
+    return (
+      <Post
+        usernameinfo={post.username}
+        contentinfo={post.content}
+        timestampinfo={post.timestamp}
+        likesinfo={post.likes}
+        liconinfo={liconImage}
+      />
+    );
+  });
+  return <div>{postDetails} </div>;
+}

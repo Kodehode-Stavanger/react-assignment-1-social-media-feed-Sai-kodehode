@@ -1,22 +1,56 @@
+body {
+  background-image: url("./assets/facebook7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .full-container {
-  margin: 10px;
+  width: 40%;
+  min-width: 300px;
+
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .individual-container {
-  padding: 10px;
-  margin-bottom: 12px;
+  padding: 20px;
   border-radius: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.individual-container h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #1877f2;
+}
+
+.timestamp-info {
+  font-size: 10px;
+  color: #606770;
+  margin-bottom: 10px;
+}
+
+.content-info {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .like {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 5px;
+  color: #606770;
 }
+
 .like img {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.like p {
+  font-size: 14px;
+  margin: 0;
 }
