@@ -1,3 +1,6 @@
-function App() {}
+import Feed from "./assets/Feed";
 
-export default App;
+function App() {
+  return <Feed />;
+}
+export default Feed;
